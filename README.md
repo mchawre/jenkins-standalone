@@ -25,7 +25,7 @@ was successful.
 
 Example usage:
 ```
-git clone https://github.com/rji/jenkins-standalone
+git clone https://github.com/mchawre/jenkins-standalone.git
 cd jenkins-standalone
 ./jenkins-standalone.sh -z $(cat /etc/mesos/zk) -r redis.example.com -u jenkins -d example/docker-image
 ```
